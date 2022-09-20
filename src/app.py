@@ -14,4 +14,4 @@ def contato():
 def quemSomos():
     return render_template('quem-somos.html')
 
-app.run(debug = True)
+app.run()
